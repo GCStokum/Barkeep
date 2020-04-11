@@ -1,5 +1,6 @@
-# Bartender
+# My Barkeep
 
-## The bot is no longer maintained. There will be no updates, new features, drinks etc. I may bring it back in the future but for now the code is a mess and I won't recode it for a while.
+## The bot is a fork of the bartender bot by discord member ejer#9484 .  I'll be adding a few features along the way, and ejer says they may bring it back in the future.
 
-Bartender discord bot by ejer#9484.
+Bartender discord bot by ejer#9484
+with additions by Carter (Terrac)#2068

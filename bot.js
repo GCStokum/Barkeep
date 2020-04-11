@@ -70,9 +70,9 @@ client.on('message', message => {
              });
 		}, 15000);
     }
-    if (message.content === 'b!whisky') {
+    if (message.content === 'b!whisky' || 'b!whiskey') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Whisky Is Being Poured. *Please Wait.*`);
+		message.channel.send(`Your Whiskey Is Being Poured. *Please Wait.*`);
 		setTimeout(function() {
 		    message.channel.send(`Here You Go!  🥃`, {files: ["./img/whisky" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
@@ -181,18 +181,18 @@ client.on('message', message => {
 		}, 15000);
     }
 
-    if (message.content === 'b!whiskey') {
-    	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Whiskey Is Being Poured. *Please Wait.*`);
-		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/whisky" + rn + ".png"]}).then(function (message) {
-              message.react("👍")
-              message.react("👎")
-            }).catch(function() {
-              //Something
-             });
-		}, 15000);
-    }	
+//    if (message.content === 'b!whiskey') {
+//    	let rn = Math.floor(Math.random() * 5) + 1;
+//		message.channel.send(`Your Whiskey Is Being Poured. *Please Wait.*`);
+//		setTimeout(function() {
+//		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/whisky" + rn + ".png"]}).then(function (message) {
+//              message.react("👍")
+//              message.react("👎")
+//            }).catch(function() {
+//              //Something
+//             });
+//		}, 15000);
+//    }	
 
     if (message.content === 'b!old fashioned') {
     	let rn = Math.floor(Math.random() * 5) + 1;

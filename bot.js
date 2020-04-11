@@ -209,6 +209,7 @@ client.on('message', message => {
     }
     if (message.content === 'b!chips') {
     	let rn = Math.floor(Math.random() * 5) + 1;
+	    	message.channel.send(`Want fish with those?`);
 		message.channel.send(`Your Chips Are Being Made. *Please Wait.*`);
 		setTimeout(function() {
 		    message.channel.send(`Here You Go!`, {files: ["./img/chips" + rn + ".jpg"]}).then(function (message) {
@@ -257,7 +258,8 @@ client.on('message', message => {
     }
     if (message.content === 'b!popcorn') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Popcorn Is Being Made. *Please Wait.*`);
+		message.channel.send(`<POP><POP><POP>`);
+	    	message.channel.send(`Warm and on it's way!`);
 		setTimeout(function() {
 		    message.channel.send(`Here You Go! 🍿`, {files: ["./img/popcorn" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")

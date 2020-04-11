@@ -50,7 +50,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Coffee Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. ☕`, {files: ["./img/coffee" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  ☕`, {files: ["./img/coffee" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -62,7 +62,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Beer Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍺`, {files: ["./img/beer" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍺`, {files: ["./img/beer" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -72,9 +72,9 @@ client.on('message', message => {
     }
     if (message.content === 'b!whisky') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Whisky Is Being Made. *Please Wait.*`);
+		message.channel.send(`Your Whisky Is Being Poured. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/whisky" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🥃`, {files: ["./img/whisky" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -86,7 +86,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Manhattan Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍸`, {files: ["./img/manhattan" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍸`, {files: ["./img/manhattan" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -97,8 +97,9 @@ client.on('message', message => {
     if (message.content === 'b!martini') {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Martini Is Being Made. *Please Wait.*`);
+	    	message.channel.send(`<shake shake shake>`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍸`, {files: ["./img/martini" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍸`, {files: ["./img/martini" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -110,7 +111,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Margarita Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍸`, {files: ["./img/margarita" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍸`, {files: ["./img/margarita" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -122,7 +123,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Mojito Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍸`, {files: ["./img/mojito" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍸`, {files: ["./img/mojito" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -134,7 +135,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Bloody Mary Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍷`, {files: ["./img/bm" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍷`, {files: ["./img/bm" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -146,7 +147,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Mai Tai Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/mt" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🥃`, {files: ["./img/mt" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -156,9 +157,9 @@ client.on('message', message => {
     }
     if (message.content === 'b!tequila') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Tequila Is Being Made. *Please Wait.*`);
+		message.channel.send(`Your Tequila Is Being Poured. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/tequila" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🥃`, {files: ["./img/tequila" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -168,9 +169,10 @@ client.on('message', message => {
     }
     if (message.content === 'b!vodka') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Vodka Is Being Made. *Please Wait.*`);
+		message.channel.send(`You want that neat?!?`);
+	    	message.channel.send(`Your Vodka Is Being Poured. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/vodka" + rn + ".png"]}).then(function (message) {
+		    message.channel.send(`Here You Go!  🍸`, {files: ["./img/vodka" + rn + ".png"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -178,9 +180,24 @@ client.on('message', message => {
              });
 		}, 15000);
     }
+
+    if (message.content === 'b!whiskey') {
+    	let rn = Math.floor(Math.random() * 5) + 1;
+		message.channel.send(`Your Whiskey Is Being Poured. *Please Wait.*`);
+		setTimeout(function() {
+		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/whisky" + rn + ".png"]}).then(function (message) {
+              message.react("👍")
+              message.react("👎")
+            }).catch(function() {
+              //Something
+             });
+		}, 15000);
+    }	
+
     if (message.content === 'b!old fashioned') {
     	let rn = Math.floor(Math.random() * 5) + 1;
-		message.channel.send(`Your Old Fashioned Is Being Made. *Please Wait.*`);
+		message.channel.send(`Classy choice 👍 `);
+	    	message.channel.send(`Your Old Fashioned Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
 		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/of" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
@@ -194,7 +211,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Chips Are Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir.`, {files: ["./img/chips" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go!`, {files: ["./img/chips" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -206,7 +223,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Breadsticks Are Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍿`, {files: ["./img/bs" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go! 🍿`, {files: ["./img/bs" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -218,7 +235,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Crackers Are Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍿`, {files: ["./img/crackers" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go! 🍿`, {files: ["./img/crackers" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -230,7 +247,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Peanuts Are Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥜`, {files: ["./img/peanuts" + rn + ".png"]}).then(function (message) {
+		    message.channel.send(`Here You Go! 🥜`, {files: ["./img/peanuts" + rn + ".png"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -242,7 +259,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Popcorn Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🍿`, {files: ["./img/popcorn" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go! 🍿`, {files: ["./img/popcorn" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
@@ -254,7 +271,7 @@ client.on('message', message => {
     	let rn = Math.floor(Math.random() * 5) + 1;
 		message.channel.send(`Your Rum Is Being Made. *Please Wait.*`);
 		setTimeout(function() {
-		    message.channel.send(`Here You Go Sir. 🥃`, {files: ["./img/rum" + rn + ".jpg"]}).then(function (message) {
+		    message.channel.send(`Here You Go! 🥃`, {files: ["./img/rum" + rn + ".jpg"]}).then(function (message) {
               message.react("👍")
               message.react("👎")
             }).catch(function() {
